@@ -1,5 +1,167 @@
-html {
-    background-color: purple;
-    width: 100vw;
-    height: 100vh;
+/* Violine #aa1155 Framboise #e43f6f
+ jaune #ffba78
+vert #ace894
+arc en ciel 
+rouge #ffadad 
+orange #ffd6a5
+jaune #fdffb6
+vert #caffbf
+bleu #9bf6ff
+bleuviolet #a0c4ff
+violet #bdb2ff
+rose #ffc6ff
+*/
+
+body {
+    width: 60%;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+header {
+    width: 100%;
+    border: solid 3px #ffadad; 
+    margin-bottom: 1em;
+}
+
+header div.google_map {
+    width: 100%;
+    height: 140px;
+}
+
+header div.coordonee {
+    width: 100%;
+    height: 45px;
+    border-top: solid 3px #ffadad;
+}
+
+header div.coordonee ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+header div.coordonee ul li.h3_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* PARTIE DU CENTRE */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* PARTIE DU CENTRE GAUCHE */
+
+main section#gauche {
+    width: 75%;
+}
+
+/* NAVIGATEUR */
+
+main section#gauche nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main section#gauche nav ul a {
+    width: calc(100% / 5);
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: black 1px 1px 2px;
+}
+
+main section#gauche nav ul a.competences {
+    background-color: #ffadad;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main section#gauche nav ul a.experiences {
+    background-color: #ffd6a5;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+main section#gauche nav ul a.formations {
+    background-color: #fdffb6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+main section#gauche nav ul a.loisir {
+    background-color: #caffbf;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+main section#gauche nav ul a.qual_def {
+    background-color: #bdb2ff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* ARTICLE DU NAVIGATEUR */
+
+main section#gauche article {
+    width: 100%;
+    height: 500px;
+    border: solid 3px #ffadad; 
+    padding: 15px;
+}
+
+/* PARTIE DU CENTRE DROITE */
+
+main aside#droite {
+    width: 25%;
+    margin-left: 1em;
+    border: solid 3px #ffadad;
+}
+
+main aside#droite img {
+
+}
+
+main aside#droite article h2 {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* LE FOOTER */
+
+footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 0.8em;
+    background-color: #ffadad;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
 }
